@@ -9,7 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, \(Person.luke.name)!")
+        if let luke = Person.luke{
+            Text("Hello, \(luke.name)!")
+        } else {
+            Text("No person found.")
+        }
     }
 }
 

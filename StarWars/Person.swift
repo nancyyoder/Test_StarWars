@@ -10,38 +10,22 @@ import Foundation
 struct Person: Codable {
     var name: String
     
-    static var luke: Person{
-        func readLocalFile(forName name: String) -> Data? {
-            do {
-                if let bundlePath = Bundle.main.path(forResource: name,
-                                                     ofType: "json"),
-                    let jsonData = try String(contentsOfFile: bundlePath).data(using: .utf8) {
-                    return jsonData
-                }
-            } catch {
-                print("Could not read json file.", error)
-            }
-            
-            return nil
-        }
-        
-        if let data = readLocalFile(forName: "luke") {
-            print("we got data")
+    static var luke: Person?{
+        Person.fromJSON(named: "luke")
+    }
+    
+    static func fromJSON(named name: String) -> Person? {
+        if let data = Data.fromJSONFile(forName: name) {
             
             let decoder = JSONDecoder()
 
             do {
-                let luke = try decoder.decode(Person.self, from: data)
-                print("Here's Luke's Name: ", luke.name)
-                return luke
+                let person = try decoder.decode(Person.self, from: data)
+                return person
             } catch {
                 print("Could not make person from data.", error.localizedDescription)
             }
         }
-        
-        
-        return Person(name: "Could not parse file.")
+        return nil
     }
-//    var height: Int
-//    var mass: Int
 }

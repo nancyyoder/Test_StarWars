@@ -16,6 +16,7 @@
 		34A4FC6628EC94350010AF1F /* StarWarsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A4FC6528EC94350010AF1F /* StarWarsUITestsLaunchTests.swift */; };
 		34A4FC7328EC94C90010AF1F /* luke.json in Resources */ = {isa = PBXBuildFile; fileRef = 34A4FC7228EC94C90010AF1F /* luke.json */; };
 		34A4FC7528EC953C0010AF1F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A4FC7428EC953C0010AF1F /* Person.swift */; };
+		34A4FC7728ECA60A0010AF1F /* Data+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A4FC7628ECA60A0010AF1F /* Data+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		34A4FC6528EC94350010AF1F /* StarWarsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		34A4FC7228EC94C90010AF1F /* luke.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = luke.json; sourceTree = "<group>"; };
 		34A4FC7428EC953C0010AF1F /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		34A4FC7628ECA60A0010AF1F /* Data+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				34A4FC7228EC94C90010AF1F /* luke.json */,
 				34A4FC4828EC94310010AF1F /* StarWarsApp.swift */,
 				34A4FC7428EC953C0010AF1F /* Person.swift */,
+				34A4FC7628ECA60A0010AF1F /* Data+.swift */,
 				34A4FC4A28EC94310010AF1F /* ContentView.swift */,
 				34A4FC4C28EC94350010AF1F /* Assets.xcassets */,
 				34A4FC4E28EC94350010AF1F /* Preview Content */,
@@ -267,6 +270,7 @@
 				34A4FC7528EC953C0010AF1F /* Person.swift in Sources */,
 				34A4FC4B28EC94310010AF1F /* ContentView.swift in Sources */,
 				34A4FC4928EC94310010AF1F /* StarWarsApp.swift in Sources */,
+				34A4FC7728ECA60A0010AF1F /* Data+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
