@@ -115,11 +115,11 @@
 				34A4FC7C28ECBB100010AF1F /* darth_vader.json */,
 				34A4FC7E28ECBC4B0010AF1F /* death_star.json */,
 				34A4FC4828EC94310010AF1F /* StarWarsApp.swift */,
+				34A4FC4A28EC94310010AF1F /* ContentView.swift */,
 				34A4FC7428EC953C0010AF1F /* Person.swift */,
 				34A4FC7A28ECB4BF0010AF1F /* Planet.swift */,
 				34A4FC8028ECBC5A0010AF1F /* Starship.swift */,
 				34A4FC7628ECA60A0010AF1F /* Data+.swift */,
-				34A4FC4A28EC94310010AF1F /* ContentView.swift */,
 				34A4FC4C28EC94350010AF1F /* Assets.xcassets */,
 				34A4FC4E28EC94350010AF1F /* Preview Content */,
 			);
