@@ -17,6 +17,11 @@
 		34A4FC7328EC94C90010AF1F /* luke.json in Resources */ = {isa = PBXBuildFile; fileRef = 34A4FC7228EC94C90010AF1F /* luke.json */; };
 		34A4FC7528EC953C0010AF1F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A4FC7428EC953C0010AF1F /* Person.swift */; };
 		34A4FC7728ECA60A0010AF1F /* Data+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A4FC7628ECA60A0010AF1F /* Data+.swift */; };
+		34A4FC7928ECABA60010AF1F /* tatooine.json in Resources */ = {isa = PBXBuildFile; fileRef = 34A4FC7828ECABA60010AF1F /* tatooine.json */; };
+		34A4FC7B28ECB4BF0010AF1F /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A4FC7A28ECB4BF0010AF1F /* Planet.swift */; };
+		34A4FC7D28ECBB100010AF1F /* darth_vader.json in Resources */ = {isa = PBXBuildFile; fileRef = 34A4FC7C28ECBB100010AF1F /* darth_vader.json */; };
+		34A4FC7F28ECBC4B0010AF1F /* death_star.json in Resources */ = {isa = PBXBuildFile; fileRef = 34A4FC7E28ECBC4B0010AF1F /* death_star.json */; };
+		34A4FC8128ECBC5A0010AF1F /* Starship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A4FC8028ECBC5A0010AF1F /* Starship.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +55,11 @@
 		34A4FC7228EC94C90010AF1F /* luke.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = luke.json; sourceTree = "<group>"; };
 		34A4FC7428EC953C0010AF1F /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		34A4FC7628ECA60A0010AF1F /* Data+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+.swift"; sourceTree = "<group>"; };
+		34A4FC7828ECABA60010AF1F /* tatooine.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tatooine.json; sourceTree = "<group>"; };
+		34A4FC7A28ECB4BF0010AF1F /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		34A4FC7C28ECBB100010AF1F /* darth_vader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = darth_vader.json; sourceTree = "<group>"; };
+		34A4FC7E28ECBC4B0010AF1F /* death_star.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = death_star.json; sourceTree = "<group>"; };
+		34A4FC8028ECBC5A0010AF1F /* Starship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starship.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +111,13 @@
 			isa = PBXGroup;
 			children = (
 				34A4FC7228EC94C90010AF1F /* luke.json */,
+				34A4FC7828ECABA60010AF1F /* tatooine.json */,
+				34A4FC7C28ECBB100010AF1F /* darth_vader.json */,
+				34A4FC7E28ECBC4B0010AF1F /* death_star.json */,
 				34A4FC4828EC94310010AF1F /* StarWarsApp.swift */,
 				34A4FC7428EC953C0010AF1F /* Person.swift */,
+				34A4FC7A28ECB4BF0010AF1F /* Planet.swift */,
+				34A4FC8028ECBC5A0010AF1F /* Starship.swift */,
 				34A4FC7628ECA60A0010AF1F /* Data+.swift */,
 				34A4FC4A28EC94310010AF1F /* ContentView.swift */,
 				34A4FC4C28EC94350010AF1F /* Assets.xcassets */,
@@ -240,7 +255,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34A4FC7928ECABA60010AF1F /* tatooine.json in Resources */,
 				34A4FC5028EC94350010AF1F /* Preview Assets.xcassets in Resources */,
+				34A4FC7F28ECBC4B0010AF1F /* death_star.json in Resources */,
+				34A4FC7D28ECBB100010AF1F /* darth_vader.json in Resources */,
 				34A4FC7328EC94C90010AF1F /* luke.json in Resources */,
 				34A4FC4D28EC94350010AF1F /* Assets.xcassets in Resources */,
 			);
@@ -270,7 +288,9 @@
 				34A4FC7528EC953C0010AF1F /* Person.swift in Sources */,
 				34A4FC4B28EC94310010AF1F /* ContentView.swift in Sources */,
 				34A4FC4928EC94310010AF1F /* StarWarsApp.swift in Sources */,
+				34A4FC8128ECBC5A0010AF1F /* Starship.swift in Sources */,
 				34A4FC7728ECA60A0010AF1F /* Data+.swift in Sources */,
+				34A4FC7B28ECB4BF0010AF1F /* Planet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
